@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Milady on Ripple</title>
+    <link rel="icon" type="image/svg+xml" href="favicon/1f310.svg" />
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        
+        .homeContainer {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .mascot {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .logo {
+            margin: 1em;
+        }
+        
+        .logo img {
+            border: 2px solid gray;
+            max-width: 500px;
+            padding: 0;
+        }
+        
+        .m_box {
+            background-color: #f0f0f0;
+            border: 2px solid #333;
+            width: 85%;
+            max-width: 800px;
+            padding-bottom: 1em;
+            margin: 1em 0;
+            text-align: center;
+            border-radius: 0;
+        }
+        
+        .m_box_red {
+            background-color: #ffeded;
+            border: 2px solid #990000;
+            width: 85%;
+            max-width: 800px;
+            padding-bottom: 1em;
+            margin: 1em 0;
+            text-align: center;
+            border-radius: 0;
+        }
+        
+        .m_box_bar {
+            background-color: #333;
+            color: white;
+            padding: 0.5em;
+            margin-bottom: 1em;
+        }
+        
+        .content {
+            width: 85%;
+            max-width: 800px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+        .box {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 1em;
+            margin: 1em 0;
+        }
+        
+        .box_bar {
+            background-color: white;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        hr {
+            width: 85%;
+            margin: 2rem 0;
+            border: 0;
+            height: 1px;
+            background-color: #ddd;
+        }
+        
+        .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .video-container {
+            margin-bottom: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .video-container video {
+            width: 450px;
+            height: 450px;
+            border: 1px solid #ddd;
+            object-fit: contain;
+        }
+        
+        .video-caption {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .picture-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .picture-container {
+            margin-bottom: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .picture-container img {
+            width: 250px;
+            height: 250px;
+            border: 1px solid #ddd;
+            object-fit: contain;
+        }
+        
+        .picture-caption {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .footer {
+            padding: 0 1em;
+        }
+        
+        .disclaimer {
+            font-size: 0.8em;
+            color: #666;
+            width: 85%;
+            max-width: 800px;
+            text-align: center;
+            margin: 2em auto;
+        }
+        
+        a {
+            color: #000;
+            text-decoration: none;
+            padding: 0 0.5em;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .mint-button {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            font-weight: bold;
+            padding: 12px 30px;
+            margin: 20px 0;
+            border: 2px solid #333;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+        
+        .mint-button:hover {
+            background-color: white;
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="homeContainer">
+        
+        <div style="display: flex; align-items: center; flex-direction: column; max-width: 43em;">
+            <div class="mascot">
+                <div class="logo">
+                    <!-- Removed link from banner as requested -->
+                    <img src="banner.png" width="500" height="167" alt="NFT Collection Banner"/>
+                </div>
+            </div>
+            
+            <div class="m_box">
+                <div class="m_box_bar">
+                    <h2>🌐Welcome to Milady on Ripple!🤍 </h2>
+                </div>
+                <p>Milady on Ripple is a unofficial collection of Milady Maker.<br>
+                   Grab your milady exclusively on <a href="https://xrp.cafe/collection/miladymakeronxrp" target="_blank">@xrpcafe</a> marketplace<br>
+                   Non-extractive miladies fairly distributed.</p>
+            </div>
+            
+            <div style="margin: 1em 0">
+                <!-- Space for additional content if needed -->
+            </div>
+
+            <div class="content">
+                <p>Mint Price: 5 XRP</p>
+                <a href="https://xrp.cafe/collection/miladymakeronxrp" class="mint-button">MINT NOW</a>
+                <div></div>
+                <p style="margin: 1em"></p>
+                <p style="margin: 1em"></p>
+            </div>
+            
+            <hr/>
+            
+            <div class="content">
+                <div class="box">
+                    <div class="box_bar" style="text-align: left; padding: 0 1em">
+                        <h2>Milady on Ripple Collection</h2>
+                    </div>
+                    <br/>
+                    <img width="336" height="446" src="miladygif.gif" alt="Milady on Ripple Collection Preview"/>
+                    <br/>
+                    <p><a href="https://xrp.cafe/collection/miladymakeronxrp">You can view and trade the collection on XRP Cafe marketplace.</a></p>
+                </div>
+            </div>
+            
+            <div class="m_box_red">
+                <div class="m_box_bar">
+                    <h2>About Milady on Ripple — リップルのミレディについて</h2>
+                </div>
+                <div class="footer">
+                    <p>Funds generated by Milady on Ripple sales support our community initiatives and creative projects that aim to expand the ecosystem and provide value to all holders.</p>
+                    <hr style="width: 100%"/>
+                    <p style="text-align: center"> 
+                        <a href="https://x.com/miladyonripple" target="blank" rel="noreferrer">Twitter</a> |  
+                        <a href="https://xrp.cafe/collection/miladymakeronxrp" target="blank" rel="noreferrer">XRP Cafe</a>
+                    </p>
+                    <hr style="width: 100%"/>
+                    <p>All collection branding, assets and NFT's are copylefted under the <a href="https://viralpubliclicense.org/" target="_blank" rel="noreferrer">Viral Public License</a>.</p>
+                </div>
+            </div>
+            
+            <div class="content">
+                <div class="box">
+                    <div class="box_bar" style="text-align: left; padding: 0 1em">
+                        <h2>Collection Videos</h2>
+                    </div>
+                    <br/>
+                    <div class="video-gallery">
+                        <div class="video-container">
+                            <video width="450" height="450" controls loop>
+                                <source src="videos/fuwafuwari.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                        <div class="video-container">
+                            <video width="450" height="450" controls loop>
+                                <source src="videos\ssstwitter.com_1745118884572.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                        <div class="video-container">
+                            <video width="450" height="450" controls loop>
+                                <source src="videos/alexeinikolaevich.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                        <div class="video-container">
+                            <video width="450" height="450" controls loop>
+                                <source src="videos/balletgun.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                        <div class="video-container">
+                            <video width="450" height="450" controls loop>
+                                <source src="videos\eatingthedogs.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                        <div class="video-container">
+                            <video width="450" height="450" controls loop>
+                                <source src="videos\remiliacapital.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                        <div class="video-container">
+                            <video width="450" height="450" controls loop>
+                                <source src="videos\ssstwitter.com_1745119714882.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <br/>
+                    <p><span>If you watched all videos you've experienced the birth of a Milady. That is how we are born </span></p>
+                </div>
+            </div>
+            
+            <div class="content">
+                <div class="box">
+                    <div class="box_bar" style="text-align: left; padding: 0 1em">
+                        <h2>Milady Gallery</h2>
+                    </div>
+                    <br/>
+                    <div class="picture-gallery">
+                        <div class="picture-container">
+                            <img src="gm.jpg" alt="gm"/>
+                        </div>
+                        
+                        <div class="picture-container">
+                            <img src="gmm.jpg" alt="gm"/>
+                        </div>
+                        
+                        <div class="picture-container">
+                            <img src="scarface.png" alt="bossy"/>
+                        </div>
+                        
+                        <div class="picture-container">
+                            <img src="uwu.jpg" alt="uWu"/>
+                        </div>
+                        
+                        <div class="picture-container">
+                            <img src="wedontcare.jpg" alt="we dont care"/>
+                        </div>
+                        
+                        <div class="picture-container">
+                            <img src="wearethecure.jpg" alt="we are the cure"/>
+                        </div>
+                    </div>
+                    <br/>
+                    <p><span>Explore our unique Milady collection, each with their own distinctive style and personality</span></p>
+                </div>
+            </div>
+            
+            <p class="disclaimer">The information provided on this website does not constitute investment advice, financial advice, trading advice, or any other sort of advice and you should not treat any of the website's content as such.</p>
+        </div>
+    </div>
+</body>
+</html>
